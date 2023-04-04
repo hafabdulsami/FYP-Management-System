@@ -1,0 +1,72 @@
+C:\Users\sami\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.csproj.AssemblyReference.cache
+C:\Users\sami\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\sami\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.Properties.Resources.resources
+C:\Users\sami\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.csproj.GenerateResource.cache
+C:\Users\sami\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.csproj.CoreCompileInputs.cache
+C:\Users\sami\OneDrive\Desktop\DB\DbProject\DbProject\bin\Debug\DbProject.exe.config
+C:\Users\sami\OneDrive\Desktop\DB\DbProject\DbProject\bin\Debug\DbProject.exe
+C:\Users\sami\OneDrive\Desktop\DB\DbProject\DbProject\bin\Debug\DbProject.pdb
+C:\Users\sami\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.Form1.resources
+C:\Users\sami\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.exe
+C:\Users\sami\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.pdb
+C:\Users\sami\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.MainMenu.resources
+C:\Users\sami\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.Component.AddEntity.resources
+C:\Users\sami\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.Component.ManageCURD.resources
+C:\Users\sami\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.Component.rudEntity.resources
+F:\DB\DbProject\DbProject\bin\Debug\DbProject.exe.config
+F:\DB\DbProject\DbProject\bin\Debug\DbProject.exe
+F:\DB\DbProject\DbProject\bin\Debug\DbProject.pdb
+F:\DB\DbProject\DbProject\obj\Debug\DbProject.csproj.AssemblyReference.cache
+F:\DB\DbProject\DbProject\obj\Debug\DbProject.csproj.SuggestedBindingRedirects.cache
+F:\DB\DbProject\DbProject\obj\Debug\DbProject.Component.AddAdvisor.resources
+F:\DB\DbProject\DbProject\obj\Debug\DbProject.Component.AddEntity.resources
+F:\DB\DbProject\DbProject\obj\Debug\DbProject.Form1.resources
+F:\DB\DbProject\DbProject\obj\Debug\DbProject.MainMenu.resources
+F:\DB\DbProject\DbProject\obj\Debug\DbProject.Component.ManageCURD.resources
+F:\DB\DbProject\DbProject\obj\Debug\DbProject.Component.rudEntity.resources
+F:\DB\DbProject\DbProject\obj\Debug\DbProject.Component.viewAdvisor.resources
+F:\DB\DbProject\DbProject\obj\Debug\DbProject.Properties.Resources.resources
+F:\DB\DbProject\DbProject\obj\Debug\DbProject.csproj.GenerateResource.cache
+F:\DB\DbProject\DbProject\obj\Debug\DbProject.csproj.CoreCompileInputs.cache
+F:\DB\DbProject\DbProject\obj\Debug\DbProject.exe
+F:\DB\DbProject\DbProject\obj\Debug\DbProject.pdb
+F:\DB\DbProject\DbProject\obj\Debug\DbProject.Component.ManageAdvisor.resources
+F:\DB\DbProject\DbProject\obj\Debug\DbProject.Component.ManageProject.resources
+F:\DB\DbProject\DbProject\obj\Debug\DbProject.Component.AddProject.resources
+F:\DB\DbProject\DbProject\obj\Debug\DbProject.Component.ViewProject.resources
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\bin\Debug\DbProject.exe.config
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\bin\Debug\DbProject.exe
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\bin\Debug\DbProject.pdb
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.csproj.AssemblyReference.cache
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.Component.AddAdvisor.resources
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.Component.AddEntity.resources
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.Component.AddProject.resources
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.Form1.resources
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.MainMenu.resources
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.Component.ManageAdvisor.resources
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.Component.ManageCURD.resources
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.Component.ManageProject.resources
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.Component.rudEntity.resources
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.Component.viewAdvisor.resources
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.Component.ViewProject.resources
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.Properties.Resources.resources
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.csproj.GenerateResource.cache
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.csproj.CoreCompileInputs.cache
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.exe
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.pdb
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.Component.MakeGroup.resources
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.Component.ManageGroup.resources
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.Component.AddEdit.resources
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.Component.ViewGroup.resources
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.Component.AddEvaluation.resources
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.Component.ManageEvaluation.resources
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.Component.ViewEvaluation.resources
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.Component.EvaluateGroup.resources
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.Component.Viewgroupevalution.resources
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.Component.AdvisorProject.resources
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.Component.ReportMenu.resources
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\bin\Debug\itextsharp.dll
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\bin\Debug\itextsharp.xml
+C:\Users\Sunlight traders\OneDrive\Desktop\DB\DbProject\DbProject\obj\Debug\DbProject.csproj.CopyComplete

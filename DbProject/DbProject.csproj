@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{73091388-F46B-4648-AB66-7613592ADA6A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DbProject</RootNamespace>
+    <AssemblyName>DbProject</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.9.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.9\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.3, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.3\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL\Student.cs" />
+    <Compile Include="Component\AddAdvisor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Component\AddAdvisor.Designer.cs">
+      <DependentUpon>AddAdvisor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\AddEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Component\AddEdit.Designer.cs">
+      <DependentUpon>AddEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\AddEntity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Component\AddEntity.Designer.cs">
+      <DependentUpon>AddEntity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\AddEvaluation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Component\AddEvaluation.Designer.cs">
+      <DependentUpon>AddEvaluation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\AddProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Component\AddProject.Designer.cs">
+      <DependentUpon>AddProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\AdvisorProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Component\AdvisorProject.Designer.cs">
+      <DependentUpon>AdvisorProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\EvaluateGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Component\EvaluateGroup.Designer.cs">
+      <DependentUpon>EvaluateGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Component\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Component\MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\MakeGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Component\MakeGroup.Designer.cs">
+      <DependentUpon>MakeGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ManageAdvisor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Component\ManageAdvisor.Designer.cs">
+      <DependentUpon>ManageAdvisor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ManageCURD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Component\ManageCURD.Designer.cs">
+      <DependentUpon>ManageCURD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ManageEvaluation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Component\ManageEvaluation.Designer.cs">
+      <DependentUpon>ManageEvaluation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ManageGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Component\ManageGroup.Designer.cs">
+      <DependentUpon>ManageGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ManageProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Component\ManageProject.Designer.cs">
+      <DependentUpon>ManageProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ReportMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Component\ReportMenu.Designer.cs">
+      <DependentUpon>ReportMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\rudEntity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Component\rudEntity.Designer.cs">
+      <DependentUpon>rudEntity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\validation.cs" />
+    <Compile Include="Component\viewAdvisor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Component\viewAdvisor.Designer.cs">
+      <DependentUpon>viewAdvisor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ViewEvaluation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Component\ViewEvaluation.Designer.cs">
+      <DependentUpon>ViewEvaluation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ViewGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Component\ViewGroup.Designer.cs">
+      <DependentUpon>ViewGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\Viewgroupevalution.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Component\Viewgroupevalution.Designer.cs">
+      <DependentUpon>Viewgroupevalution.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ViewProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Component\ViewProject.Designer.cs">
+      <DependentUpon>ViewProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Component\AddAdvisor.resx">
+      <DependentUpon>AddAdvisor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\AddEdit.resx">
+      <DependentUpon>AddEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\AddEntity.resx">
+      <DependentUpon>AddEntity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\AddEvaluation.resx">
+      <DependentUpon>AddEvaluation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\AddProject.resx">
+      <DependentUpon>AddProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\AdvisorProject.resx">
+      <DependentUpon>AdvisorProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\EvaluateGroup.resx">
+      <DependentUpon>EvaluateGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\MakeGroup.resx">
+      <DependentUpon>MakeGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ManageAdvisor.resx">
+      <DependentUpon>ManageAdvisor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ManageCURD.resx">
+      <DependentUpon>ManageCURD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ManageEvaluation.resx">
+      <DependentUpon>ManageEvaluation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ManageGroup.resx">
+      <DependentUpon>ManageGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ManageProject.resx">
+      <DependentUpon>ManageProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ReportMenu.resx">
+      <DependentUpon>ReportMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\rudEntity.resx">
+      <DependentUpon>rudEntity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\viewAdvisor.resx">
+      <DependentUpon>viewAdvisor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ViewEvaluation.resx">
+      <DependentUpon>ViewEvaluation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ViewGroup.resx">
+      <DependentUpon>ViewGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\Viewgroupevalution.resx">
+      <DependentUpon>Viewgroupevalution.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ViewProject.resx">
+      <DependentUpon>ViewProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-student-male-24.png" />
+    <None Include="Resources\icons8-menu-50.png" />
+    <None Include="Resources\icons8-solicitor-50.png" />
+    <None Include="Resources\icons8-customer-24.png" />
+    <None Include="Resources\icons8-project-management-24.png" />
+    <None Include="Resources\icons8-people-24.png" />
+    <None Include="Resources\icons8-exam-24.png" />
+    <None Include="Resources\icons8-batch-assign-24.png" />
+    <Compile Include="Configuration.cs" />
+    <Content Include="Resources\LOGO.png" />
+    <Content Include="Resources\text11924.png" />
+    <None Include="Resources\text119241.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
